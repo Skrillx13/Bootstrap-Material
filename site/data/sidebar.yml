@@ -6,3 +6,11 @@
   icon_color: indigo
   pages:
     - title: Installation
+    - title: Quick Start
+
+# - Setup -
+- title: Setup
+  icon: menu-button-wide-fill
+  icon_color: cyan
+  pages:
+    - title: Changing The Colours
