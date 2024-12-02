@@ -1,0 +1,8 @@
+# -- Sidebar Menu Entires --
+
+# - Getting Started -
+- title: Getting Started
+  icon: book-half
+  icon_color: indigo
+  pages:
+    - title: Installation

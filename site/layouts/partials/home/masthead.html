@@ -1,0 +1,38 @@
+<div class="bd-masthead mb-3" id="content">
+  <div class="container-xxl bd-gutter">
+    <div class="col-md-8 mx-auto text-center">
+      <a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none" href="https://github.com/gohugoio/hugo/releases/tag/v0.139.2" rel="noopener" target="_blank">
+        <span class="d-sm-inline-flex align-items-center gap-1 py-2 px-3 me-2 mb-2 mb-lg-0 rounded-5 masthead-notice">
+          Release V0.139.2 out now!
+          <svg class="bi" style="width: 20px; height: 20px;" aria-hidden="true"><use xlink:href="#arrow-right-short"></use></svg>
+        </span>
+      </a>
+      {{ partial "responsive-img" (dict "context" .
+        "imgPath" "/assets/brand/bootstrap-logo-shadow.png"
+        "alt" "Bootstrap"
+        "classes" "d-none d-sm-block mb-3"
+        "lazyload" false) }}
+      <h1 class="mb-3 fw-semibold lh-1">The World's Fastest Framework for Building Websites</h1>
+      <p class="lead mb-4">
+        Hugo is one of the most popular open-source static site generators. With its amazing speed, flexibility, and toolset, Hugo makes building websites fun again.
+      </p>
+      <div class="d-flex flex-column flex-lg-row align-items-md-stretch justify-content-md-center gap-3 mb-4">
+        <div class="d-inline-block v-align-middle fs-5">
+          {{ highlight (print ("cloth install fuss")) "sh" "" }}
+        </div>
+        <a href="/docs/getting-started/quick-start/" class="btn btn-lg bd-btn-lg btn-bd-primary d-flex align-items-center justify-content-center fw-semibold">
+          <svg class="bi me-2" aria-hidden="true"><use xlink:href="#book-half"></use></svg>
+          Quick Start
+        </a>
+      </div>
+      <p class="text-body-secondary mb-0">
+        Currently <strong>V0.139.2</strong>
+        <span class="px-1">&middot;</span>
+        <a href="/docs/getting-started/introduction/" class="link-secondary">Get an Introduction</a>
+        <span class="px-1">&middot;</span>
+        <a href="/docs/getting-started/contents/" class="link-secondary text-nowrap">Contents</a>
+      </p>
+      {{ partial "ads" . }}
+    </div>
+  </div>
+</div>
